@@ -16,7 +16,6 @@ const requestValidationMiddleware: QuoteRequestHandler = (req: Request<{}, {}, {
         res.status(400).json({ error: 'Invalid baseAmount. It must be a positive number.' });
         return;
     };
-    console.log('validationResult: ', validationResult)
     validationResult.valid ? next() : res.status(400).json({ message: 'Validation Error', errors: validationResult.errors });
 };
 
