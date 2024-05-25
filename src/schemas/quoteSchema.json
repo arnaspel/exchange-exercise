@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "properties": {
+    "baseCurrency": {"enum": ["USD", "EUR", "GBP", "ILS"]},
+    "quoteCurrency": {"enum": ["USD", "EUR", "GBP", "ILS"]},
+    "baseAmount": {"type": "string"}
+  },
+  "required": ["baseCurrency", "quoteCurrency", "baseAmount"],
+  "additionalProperties": false
+}
