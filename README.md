@@ -7,7 +7,7 @@ Repository that contains API endpoint to retrieve quote amount and exchange rate
 Clone the project
 
 ```bash
-  git clone https://github.com/arnaspel/exchange-exercise
+  git clone https://github.com/arnaspel/exchange-exercise.git
 ```
 
 Install dependencies
